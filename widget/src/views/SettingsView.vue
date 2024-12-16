@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import type { Color, Widget } from '@/types';
+import type { Color, Widget } from '@/types/types';
 import TheWidget from '@/components/TheWidget.vue';
 import TheColorBox from '@/components/TheColorBox.vue'
 import TheSwitch from '@/components/TheSwitch.vue';

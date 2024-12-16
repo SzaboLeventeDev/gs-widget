@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Widget } from '@/types';
+import type { Widget } from '@/types/types';
 import TheWidget from'../components/TheWidget.vue';
 import { computed, onMounted } from 'vue';
 import { useStore } from '@/store/index';

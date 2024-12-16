@@ -1,4 +1,4 @@
-import type { Action, Color, Impact, Widget } from '@/types'
+import type { Action, Color, Impact, Widget } from '@/types/types'
 
 export const parseSingleWidget = (data: any): Widget => {
   if (

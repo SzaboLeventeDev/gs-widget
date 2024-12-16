@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { defineProps, ref, watch, computed, onMounted } from 'vue';
-import { type Color } from '@/types';
+import { type Color } from '@/types/types';
 
 const props = defineProps<{color: Color, isSelected: boolean}>();
 const emit = defineEmits(['set-color'])
