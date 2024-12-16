@@ -1,6 +1,6 @@
 import { useFetch } from '@/composables/useFetch'
 import { parseWidgets } from '@/dto/parseWidget'
-import type { Widget } from '@/types'
+import type { Widget } from '@/types/types'
 
 export async function getWidgets(): Promise<Widget[]> {
   const apiURL: string =
