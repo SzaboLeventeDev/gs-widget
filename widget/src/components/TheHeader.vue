@@ -24,18 +24,14 @@ nav {
   cursor: pointer;
 }
 
-h1 {
-  color: var(--color-green);
+h1:hover {
+  transform: translateY(-0.1rem);
 }
 
 li {
  list-style-type: none;
 }
 
-li a {
-  transition: 0.4s;
-  color: var(--color-green);
-}
 li:hover {
   transform: translateY(-0.1rem);
 }
